@@ -18,8 +18,8 @@ class _UserInputFormState extends State<UserInputForm> {
     if (_formKey.currentState!.validate()) {
       try {
         final response = await http.post(
-          // 안드로이드 에뮬레이터로 빌드 시 로컬호스트 대신 10.0.2.2:3001 사용
-          Uri.parse('http://localhost:3001/api/users'),
+          // Uri.parse('http://localhost:3001/api/users'), // iOS
+          Uri.parse('http://10.0.2.2:3001/api/users'), // Android
           headers: {
             'Content-Type': 'application/json',
           },

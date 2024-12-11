@@ -27,3 +27,9 @@ Flutter는 구글에서 개발한 오픈소스 UI 소프트웨어 개발 키트(
    ```bash
    flutter create my_flutter_project
    cd my_flutter_project
+
+## 예제
+
+- clean_1 (정우) : 플러터의 기본 앱을 클린 아키텍처를 이용해서 수정했습니다.
+- clean_2 (정우) : 각각의 레이어에서 현재 상태를 업데이트 하는 로직을 추가해서, 보기 쉽게 어떻게 동작하는지 확인 가능합니다.
+- server_1 (재혁) : 플러터 앱에서부터 서버와의 연결, 통신을 진행합니다.

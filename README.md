@@ -21,7 +21,7 @@ Flutter는 구글에서 개발한 오픈소스 UI 소프트웨어 개발 키트(
 이 자료를 사용하려면, 먼저 [Flutter SDK](https://flutter.dev/docs/get-started/install)와 Dart를 설치해야 합니다.
 
 1. Flutter SDK 설치
-   - [Flutter 설치 가이드](https://flutter.dev/docs/get-started/install) 참고
+    - [Flutter 설치 가이드](https://flutter.dev/docs/get-started/install) 참고
 
 2. Flutter 프로젝트 생성
    ```bash

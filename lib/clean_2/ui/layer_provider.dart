@@ -1,6 +1,7 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-final activeLayerProvider = StateNotifierProvider<ActiveLayerNotifier, String>((ref) {
+final activeLayerProvider =
+    StateNotifierProvider<ActiveLayerNotifier, String>((ref) {
   return ActiveLayerNotifier();
 });
 

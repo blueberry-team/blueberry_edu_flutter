@@ -1,0 +1,17 @@
+targets:
+  $default:
+    builders:
+      source_gen|combining_builder:
+        generate_for:
+          - lib/state/models/**.dart
+          - lib/state/dto/**.dart
+        options:
+          build_extensions:
+            '^lib/state/models/{{}}.dart': 'lib/state/models/generated/{{}}.g.dart'
+            '^lib/state/dto/{{}}.dart': 'lib/state/dto/generated/{{}}.g.dart'
+      freezed|freezed:
+        enabled: true
+        options:
+          build_extensions:
+            '^lib/state/models/{{}}.dart': 'lib/state/models/generated/{{}}.freezed.dart'
+            '^lib/state/dto/{{}}.dart': 'lib/state/dto/generated/{{}}.freezed.dart'

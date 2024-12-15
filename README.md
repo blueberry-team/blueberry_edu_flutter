@@ -27,3 +27,27 @@ Flutter는 구글에서 개발한 오픈소스 UI 소프트웨어 개발 키트(
    ```bash
    flutter create my_flutter_project
    cd my_flutter_project
+   
+
+# 리버팟 교육 예제 사용법
+
+실제로 코드를 사용해보고 싶으신 분들은 파이어베이스 프로젝트 생성 하시면 사용하실 수 있습니다.
+
+```bash
+curl -sL https://firebase.tools | bash
+```
+
+```bash
+dart pub global activate flutterfire_cli
+```
+
+```bash
+flutterfire configure --project={자신의 프로젝트 명}
+```
+
+플랫폼 선택창이 나오시면 AOS , IOS 선택 해주시면 됩니다.
+
+com.berrychat.app
+
+주소를 입력하는 창이 나오면 위의 주소 입력해주시면 됩니다.
+

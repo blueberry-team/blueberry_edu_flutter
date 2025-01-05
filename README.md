@@ -56,3 +56,11 @@ flutterfire configure --project={자신의 프로젝트 명}
 주소 입력하는 창은 각자가 사용하고싶은 주소 사용해주시면 됩니다.
 
 
+# freezed 사용법
+make 치시면 모든 프로세스가 작동합니다
+
+# flutter compute 사용법
+event 스크린은 home과 연결되어있지 않습니다. 
+그래서 event 테스트를 하게되시면 compute_1.dart에서 수정해서 보시면 됩니다.
+
+

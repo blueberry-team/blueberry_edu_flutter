@@ -36,11 +36,14 @@ class SignUpNotifier extends StateNotifier<SignUpState> {
         password: signUpDto.password,
       );
 
+      // 회원가입이 정상임
+
       final updatedSignUpDto = signUpDto.copyWith(
         id: signUpResult.user?.uid,
       );
 
       await _fireStoreInterface.saveUserData(updatedSignUpDto);
+      // 문제를 일으켰음
 
       state = SignUpState();
     } catch (e) {
@@ -51,10 +54,8 @@ class SignUpNotifier extends StateNotifier<SignUpState> {
 
 class SignUpState {
   final SignUpDto? signUpDto;
-  final bool isLoading;
 
   SignUpState({
     this.signUpDto,
-    this.isLoading = false,
   });
 }

@@ -13,9 +13,17 @@ class CheckCount extends ConsumerWidget {
           title: const Text('Check Count'),
         ),
         body: Center(
-          child: Column(
+            child:
+                Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+          Text("Count: $count"),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text("Count: $count"),
+              TextButton(
+                  onPressed: () {
+                    ref.read(addCountProvider.notifier).state++;
+                  },
+                  child: const Text("UP!")),
               TextButton(
                   onPressed: () {
                     Navigator.push(context,
@@ -30,6 +38,6 @@ class CheckCount extends ConsumerWidget {
                   child: const Text("이동 완전히"))
             ],
           ),
-        ));
+        ])));
   }
 }

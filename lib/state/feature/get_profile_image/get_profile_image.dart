@@ -1,6 +1,5 @@
 import 'dart:convert';
 import 'package:blueberry_edu/state/feature/log_in/log_in_screen.dart';
-import 'package:blueberry_edu/state/feature/log_in/providers/userStateProvider.dart';
 import 'package:blueberry_edu/state/feature/sign_up/sign_up_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';

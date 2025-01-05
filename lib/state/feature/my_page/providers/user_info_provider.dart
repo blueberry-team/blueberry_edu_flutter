@@ -22,6 +22,8 @@ class UserInfoNotifier extends StateNotifier<UserModelState> {
       final user = await _authInterface.checkUser();
       final userModel = await _fireStoreInterface.getUserData(user?.uid ?? '');
 
+      // 내 정보 내놔
+
       state = UserModelState(userModel: userModel);
     } catch (e) {
       print(e);

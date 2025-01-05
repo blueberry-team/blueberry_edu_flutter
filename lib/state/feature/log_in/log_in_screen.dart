@@ -1,4 +1,3 @@
-import 'package:blueberry_edu/state/feature/home/home_screen.dart';
 import 'package:blueberry_edu/state/data/auth/auth_repository.dart';
 import 'package:blueberry_edu/state/feature/log_in/providers/userStateProvider.dart';
 import 'package:blueberry_edu/state/feature/my_page/my_page_screen.dart';
@@ -53,8 +52,10 @@ class _LogInScreenState extends ConsumerState<LogInScreen> {
                     email: _emailController.text,
                     password: _passwordController.text,
                   );
-                  Navigator.pushReplacement(context,
-                      MaterialPageRoute(builder: (context) => const MyPageScreen()));
+                  Navigator.pushReplacement(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => const MyPageScreen()));
                 } catch (e) {
                   print(e);
                 }

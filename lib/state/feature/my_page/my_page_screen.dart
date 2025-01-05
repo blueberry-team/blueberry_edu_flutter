@@ -29,7 +29,7 @@ class MyPageScreen extends ConsumerWidget {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => AnotherMyPage()),
+                              builder: (context) => const AnotherMyPage()),
                         );
                       },
                       child: const Text('Another My Page'),

@@ -1,5 +1,6 @@
 /android
 /ios
+/generated
 
 # Miscellaneous
 *.class

@@ -28,8 +28,8 @@ class MyApp extends StatelessWidget {
                   child: Column(
                     spacing: 20.w,
                     children: [
-                      NonResponsiveCalendar(),
-                      ResponsiveCalendar(),
+                      const NonResponsiveCalendar(),
+                      const ResponsiveCalendar(),
                       PostCard(
                         profileImage: "https://picsum.photos/200",
                         username: "사용자명",

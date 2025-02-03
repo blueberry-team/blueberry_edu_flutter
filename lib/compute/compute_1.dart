@@ -1,6 +1,4 @@
-import 'package:blueberry_edu/compute/feature/event/event_loop_screen.dart';
 import 'package:blueberry_edu/compute/feature/home/home_screen.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomeScreen(),
+      home: const HomeScreen(),
     );
   }
 }

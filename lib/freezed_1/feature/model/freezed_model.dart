@@ -10,6 +10,4 @@ class FreezedModel with _$FreezedModel {
 
   factory FreezedModel.fromJson(Map<String, dynamic> json) =>
       _$FreezedModelFromJson(json);
-
 }
-

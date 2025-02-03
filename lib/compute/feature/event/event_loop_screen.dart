@@ -3,6 +3,8 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 
 class EventLoopScreen extends StatefulWidget {
+  const EventLoopScreen({super.key});
+
   @override
   _EventLoopScreenState createState() => _EventLoopScreenState();
 }

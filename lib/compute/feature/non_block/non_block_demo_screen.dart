@@ -61,8 +61,6 @@ class _NonBlockingDemoState extends State<NonBlockingDemo> {
     }
   }
 
-
-
   @override
   Widget build(BuildContext context) {
     return Container(

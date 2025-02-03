@@ -7,7 +7,7 @@ class NonResponsiveCalendar extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: 335,
-      padding: EdgeInsets.all(16),
+      padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.circular(16),
@@ -25,13 +25,13 @@ class NonResponsiveCalendar extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               IconButton(
-                icon: Icon(
+                icon: const Icon(
                   Icons.arrow_back_ios,
                   size: 20,
                 ),
                 onPressed: () {},
               ),
-              Text(
+              const Text(
                 '2024년 1월',
                 style: TextStyle(
                   fontSize: 18,
@@ -39,7 +39,7 @@ class NonResponsiveCalendar extends StatelessWidget {
                 ),
               ),
               IconButton(
-                icon: Icon(
+                icon: const Icon(
                   Icons.arrow_forward_ios,
                   size: 20,
                 ),
@@ -47,7 +47,7 @@ class NonResponsiveCalendar extends StatelessWidget {
               ),
             ],
           ),
-          SizedBox(height: 16),
+          const SizedBox(height: 16),
           Row(
             children: ['일', '월', '화', '수', '목', '금', '토'].map((day) => Expanded(
               child: Center(
@@ -62,16 +62,16 @@ class NonResponsiveCalendar extends StatelessWidget {
               ),
             )).toList(),
           ),
-          SizedBox(height: 8),
+          const SizedBox(height: 8),
           ...List.generate(6, (weekIndex) =>
               Padding(
-                padding: EdgeInsets.only(bottom: 8),
+                padding: const EdgeInsets.only(bottom: 8),
                 child: Row(
                   children: List.generate(7, (dayIndex) =>
                       Expanded(
                         child: Container(
                           height: 36,
-                          margin: EdgeInsets.all(2),
+                          margin: const EdgeInsets.all(2),
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(8),
                             border: Border.all(

@@ -42,7 +42,8 @@ class SocialBottomBar extends StatelessWidget {
           onTap: onCommentTap,
           child: Row(
             children: [
-              Icon(Icons.chat_bubble_outline, size: 20.w, color: Colors.grey[600]),
+              Icon(Icons.chat_bubble_outline,
+                  size: 20.w, color: Colors.grey[600]),
               SizedBox(width: 4.w),
               Text(
                 commentCount.toString(),

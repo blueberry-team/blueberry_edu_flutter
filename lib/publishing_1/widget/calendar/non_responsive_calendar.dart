@@ -49,50 +49,54 @@ class NonResponsiveCalendar extends StatelessWidget {
           ),
           const SizedBox(height: 16),
           Row(
-            children: ['일', '월', '화', '수', '목', '금', '토'].map((day) => Expanded(
-              child: Center(
-                child: Text(
-                  day,
-                  style: TextStyle(
-                    fontSize: 14,
-                    fontWeight: FontWeight.w500,
-                    color: Colors.grey[600],
-                  ),
-                ),
-              ),
-            )).toList(),
-          ),
-          const SizedBox(height: 8),
-          ...List.generate(6, (weekIndex) =>
-              Padding(
-                padding: const EdgeInsets.only(bottom: 8),
-                child: Row(
-                  children: List.generate(7, (dayIndex) =>
-                      Expanded(
-                        child: Container(
-                          height: 36,
-                          margin: const EdgeInsets.all(2),
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(8),
-                            border: Border.all(
-                              color: Colors.grey[200]!,
-                              width: 1,
-                            ),
-                          ),
-                          child: Center(
-                            child: Text(
-                              '${weekIndex * 7 + dayIndex + 1}',
-                              style: TextStyle(
-                                fontSize: 14,
-                                color: Colors.grey[800],
-                              ),
-                            ),
+            children: ['일', '월', '화', '수', '목', '금', '토']
+                .map((day) => Expanded(
+                      child: Center(
+                        child: Text(
+                          day,
+                          style: TextStyle(
+                            fontSize: 14,
+                            fontWeight: FontWeight.w500,
+                            color: Colors.grey[600],
                           ),
                         ),
                       ),
+                    ))
+                .toList(),
+          ),
+          const SizedBox(height: 8),
+          ...List.generate(
+            6,
+            (weekIndex) => Padding(
+              padding: const EdgeInsets.only(bottom: 8),
+              child: Row(
+                children: List.generate(
+                  7,
+                  (dayIndex) => Expanded(
+                    child: Container(
+                      height: 36,
+                      margin: const EdgeInsets.all(2),
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(8),
+                        border: Border.all(
+                          color: Colors.grey[200]!,
+                          width: 1,
+                        ),
+                      ),
+                      child: Center(
+                        child: Text(
+                          '${weekIndex * 7 + dayIndex + 1}',
+                          style: TextStyle(
+                            fontSize: 14,
+                            color: Colors.grey[800],
+                          ),
+                        ),
+                      ),
+                    ),
                   ),
                 ),
               ),
+            ),
           ),
         ],
       ),

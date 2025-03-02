@@ -13,7 +13,7 @@ class HomeScreen extends ConsumerWidget {
       body: Center(
         child: Column(
           children: [
-            HomeWidget(),
+            const HomeWidget(),
             Text('$some'),
             TextButton(
               onPressed: () {
@@ -21,9 +21,14 @@ class HomeScreen extends ConsumerWidget {
               },
               child: const Text('add'),
             ),
-            TextButton(onPressed: (){
-              Navigator.push(context, MaterialPageRoute(builder: (context) => KeyScreen()));
-            }, child: Text('move')),
+            TextButton(
+                onPressed: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => const KeyScreen()));
+                },
+                child: const Text('move')),
           ],
         ),
       ),

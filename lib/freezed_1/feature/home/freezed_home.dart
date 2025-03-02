@@ -58,7 +58,7 @@ class _FreezedHomeState extends State<FreezedHome> {
           modelText("Basic", basicModel.toString()),
           modelText("Freezed", freezedModel.toString()),
           Text(basicModel == basicModel2 ? 'true' : 'false'),
-          Text(freezedModel == freezedModel2 ? 'true' : 'false'),
+          const Text(freezedModel == freezedModel2 ? 'true' : 'false'),
           modelText("Freezed", freezedModel3.toString()),
         ],
       ),

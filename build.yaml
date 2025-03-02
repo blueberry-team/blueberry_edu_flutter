@@ -1,16 +1,24 @@
 targets:
   $default:
     builders:
+      envied_generator|envied:
+        enabled: true
       source_gen|combining_builder:
         generate_for:
           - lib/state/models/**.dart
           - lib/state/dto/**.dart
           - lib/freezed_1/feature/model/**.dart
+          - lib/environment_variable/env/**.dart
+          - lib/http_communication_1/data/dio_client/**.dart
+          - lib/http_communication_1/model/**.dart
         options:
           build_extensions:
             '^lib/state/models/{{}}.dart': 'lib/state/models/generated/{{}}.g.dart'
             '^lib/state/dto/{{}}.dart': 'lib/state/dto/generated/{{}}.g.dart'
             '^lib/freezed_1/feature/model/{{}}.dart': 'lib/freezed_1/feature/model/generated/{{}}.g.dart'
+            '^lib/environment_variable/env/{{}}.dart': 'lib/environment_variable/env/generated/{{}}.g.dart'
+            '^lib/http_communication_1/data/dio_client/{{}}.dart': 'lib/http_communication_1/data/dio_client/generated/{{}}.g.dart'
+            '^lib/http_communication_1/model/{{}}.dart': 'lib/http_communication_1/model/generated/{{}}.g.dart'
       freezed|freezed:
         enabled: true
         options:
@@ -18,3 +26,4 @@ targets:
             '^lib/state/models/{{}}.dart': 'lib/state/models/generated/{{}}.freezed.dart'
             '^lib/state/dto/{{}}.dart': 'lib/state/dto/generated/{{}}.freezed.dart'
             '^lib/freezed_1/feature/model/{{}}.dart': 'lib/freezed_1/feature/model/generated/{{}}.freezed.dart'
+            '^lib/http_communication_1/model/{{}}.dart': 'lib/http_communication_1/model/generated/{{}}.freezed.dart'

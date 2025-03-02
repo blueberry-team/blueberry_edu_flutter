@@ -66,20 +66,22 @@ class PostCard extends StatelessWidget {
             SingleChildScrollView(
               scrollDirection: Axis.horizontal,
               child: Row(
-                children: images!.map((url) =>
-                    Padding(
-                      padding: EdgeInsets.only(right: 8.w),
-                      child: ClipRRect(
-                        borderRadius: BorderRadius.circular(8.r),
-                        child: CachedNetworkImage(
-                          imageUrl: url,
-                          width: 120.w,
-                          height: 120.w,
-                          fit: BoxFit.cover,
+                children: images!
+                    .map(
+                      (url) => Padding(
+                        padding: EdgeInsets.only(right: 8.w),
+                        child: ClipRRect(
+                          borderRadius: BorderRadius.circular(8.r),
+                          child: CachedNetworkImage(
+                            imageUrl: url,
+                            width: 120.w,
+                            height: 120.w,
+                            fit: BoxFit.cover,
+                          ),
                         ),
                       ),
-                    ),
-                ).toList(),
+                    )
+                    .toList(),
               ),
             ),
           ],

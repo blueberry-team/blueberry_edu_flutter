@@ -1,0 +1,496 @@
+[
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "websockets",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "websockets",
+        "description": "websockets",
+        "detail": "websockets",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "WebSocket",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "WebSocketDisconnect",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "WebSocket",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "WebSocketDisconnect",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPAuthorizationCredentials",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "JWTError",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "CryptContext",
+        "importPath": "passlib.context",
+        "description": "passlib.context",
+        "isExtraImport": true,
+        "detail": "passlib.context",
+        "documentation": {}
+    },
+    {
+        "label": "HTMLResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "uvicorn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uvicorn",
+        "description": "uvicorn",
+        "detail": "uvicorn",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "Message",
+        "kind": 6,
+        "importPath": "extras",
+        "description": "extras",
+        "peekOfCode": "class Message(BaseModel):\n    sender: str\n    message: str\n    target: str = \"broadcast\"\n    timestamp: float = None\n# 방 관리 클래스\nclass RoomManager:\n    def __init__(self):\n        self.rooms: Dict[str, Dict[str, WebSocket]] = {}\n        self.room_history: Dict[str, List[Message]] = {}",
+        "detail": "extras",
+        "documentation": {}
+    },
+    {
+        "label": "RoomManager",
+        "kind": 6,
+        "importPath": "extras",
+        "description": "extras",
+        "peekOfCode": "class RoomManager:\n    def __init__(self):\n        self.rooms: Dict[str, Dict[str, WebSocket]] = {}\n        self.room_history: Dict[str, List[Message]] = {}\n    def create_room(self, room_id: str):\n        if room_id not in self.rooms:\n            self.rooms[room_id] = {}\n            self.room_history[room_id] = []\n            return True\n        return False",
+        "detail": "extras",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "extras",
+        "description": "extras",
+        "peekOfCode": "class User(BaseModel):\n    username: str\nclass UserInDB(User):\n    hashed_password: str\n# 비밀번호 검증\ndef verify_password(plain_password, hashed_password):\n    return pwd_context.verify(plain_password, hashed_password)\n# 사용자 확인\ndef get_user(db, username: str):\n    if username in db:",
+        "detail": "extras",
+        "documentation": {}
+    },
+    {
+        "label": "UserInDB",
+        "kind": 6,
+        "importPath": "extras",
+        "description": "extras",
+        "peekOfCode": "class UserInDB(User):\n    hashed_password: str\n# 비밀번호 검증\ndef verify_password(plain_password, hashed_password):\n    return pwd_context.verify(plain_password, hashed_password)\n# 사용자 확인\ndef get_user(db, username: str):\n    if username in db:\n        user_dict = db[username]\n        return UserInDB(**user_dict)",
+        "detail": "extras",
+        "documentation": {}
+    },
+    {
+        "label": "verify_password",
+        "kind": 2,
+        "importPath": "extras",
+        "description": "extras",
+        "peekOfCode": "def verify_password(plain_password, hashed_password):\n    return pwd_context.verify(plain_password, hashed_password)\n# 사용자 확인\ndef get_user(db, username: str):\n    if username in db:\n        user_dict = db[username]\n        return UserInDB(**user_dict)\n# 사용자 인증\ndef authenticate_user(fake_db, username: str, password: str):\n    user = get_user(fake_db, username)",
+        "detail": "extras",
+        "documentation": {}
+    },
+    {
+        "label": "get_user",
+        "kind": 2,
+        "importPath": "extras",
+        "description": "extras",
+        "peekOfCode": "def get_user(db, username: str):\n    if username in db:\n        user_dict = db[username]\n        return UserInDB(**user_dict)\n# 사용자 인증\ndef authenticate_user(fake_db, username: str, password: str):\n    user = get_user(fake_db, username)\n    if not user:\n        return False\n    if not verify_password(password, user.hashed_password):",
+        "detail": "extras",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate_user",
+        "kind": 2,
+        "importPath": "extras",
+        "description": "extras",
+        "peekOfCode": "def authenticate_user(fake_db, username: str, password: str):\n    user = get_user(fake_db, username)\n    if not user:\n        return False\n    if not verify_password(password, user.hashed_password):\n        return False\n    return user\n# JWT 토큰 생성\ndef create_access_token(data: dict, expires_delta: Optional[timedelta] = None):\n    to_encode = data.copy()",
+        "detail": "extras",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "kind": 2,
+        "importPath": "extras",
+        "description": "extras",
+        "peekOfCode": "def create_access_token(data: dict, expires_delta: Optional[timedelta] = None):\n    to_encode = data.copy()\n    if expires_delta:\n        expire = datetime.utcnow() + expires_delta\n    else:\n        expire = datetime.utcnow() + timedelta(minutes=15)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\n# 토큰으로부터 현재 사용자 가져오기",
+        "detail": "extras",
+        "documentation": {}
+    },
+    {
+        "label": "security",
+        "kind": 5,
+        "importPath": "extras",
+        "description": "extras",
+        "peekOfCode": "security = HTTPBearer()\n# 메시지 모델\nclass Message(BaseModel):\n    sender: str\n    message: str\n    target: str = \"broadcast\"\n    timestamp: float = None\n# 방 관리 클래스\nclass RoomManager:\n    def __init__(self):",
+        "detail": "extras",
+        "documentation": {}
+    },
+    {
+        "label": "room_manager",
+        "kind": 5,
+        "importPath": "extras",
+        "description": "extras",
+        "peekOfCode": "room_manager = RoomManager()\n@app.websocket(\"/ws/room/{room_id}/{client_id}\")\nasync def websocket_room_endpoint(websocket: WebSocket, room_id: str, client_id: str):\n    await room_manager.join_room(room_id, client_id, websocket)\n    try:\n        # 방 참가 알림\n        await room_manager.broadcast_to_room(\n            room_id, \n            json.dumps({\"type\": \"join\", \"client_id\": client_id, \"message\": f\"{client_id}님이 입장했습니다.\"})\n        )",
+        "detail": "extras",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "extras",
+        "description": "extras",
+        "peekOfCode": "SECRET_KEY = \"your-secret-key\"\nALGORITHM = \"HS256\"\nACCESS_TOKEN_EXPIRE_MINUTES = 30\n# 비밀번호 해싱\npwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\noauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"token\")\n# 가상의 사용자 DB\nfake_users_db = {\n    \"testuser\": {\n        \"username\": \"testuser\",",
+        "detail": "extras",
+        "documentation": {}
+    },
+    {
+        "label": "ALGORITHM",
+        "kind": 5,
+        "importPath": "extras",
+        "description": "extras",
+        "peekOfCode": "ALGORITHM = \"HS256\"\nACCESS_TOKEN_EXPIRE_MINUTES = 30\n# 비밀번호 해싱\npwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\noauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"token\")\n# 가상의 사용자 DB\nfake_users_db = {\n    \"testuser\": {\n        \"username\": \"testuser\",\n        \"hashed_password\": pwd_context.hash(\"testpassword\"),",
+        "detail": "extras",
+        "documentation": {}
+    },
+    {
+        "label": "ACCESS_TOKEN_EXPIRE_MINUTES",
+        "kind": 5,
+        "importPath": "extras",
+        "description": "extras",
+        "peekOfCode": "ACCESS_TOKEN_EXPIRE_MINUTES = 30\n# 비밀번호 해싱\npwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\noauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"token\")\n# 가상의 사용자 DB\nfake_users_db = {\n    \"testuser\": {\n        \"username\": \"testuser\",\n        \"hashed_password\": pwd_context.hash(\"testpassword\"),\n    }",
+        "detail": "extras",
+        "documentation": {}
+    },
+    {
+        "label": "pwd_context",
+        "kind": 5,
+        "importPath": "extras",
+        "description": "extras",
+        "peekOfCode": "pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\noauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"token\")\n# 가상의 사용자 DB\nfake_users_db = {\n    \"testuser\": {\n        \"username\": \"testuser\",\n        \"hashed_password\": pwd_context.hash(\"testpassword\"),\n    }\n}\n# 사용자 모델",
+        "detail": "extras",
+        "documentation": {}
+    },
+    {
+        "label": "oauth2_scheme",
+        "kind": 5,
+        "importPath": "extras",
+        "description": "extras",
+        "peekOfCode": "oauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"token\")\n# 가상의 사용자 DB\nfake_users_db = {\n    \"testuser\": {\n        \"username\": \"testuser\",\n        \"hashed_password\": pwd_context.hash(\"testpassword\"),\n    }\n}\n# 사용자 모델\nclass User(BaseModel):",
+        "detail": "extras",
+        "documentation": {}
+    },
+    {
+        "label": "fake_users_db",
+        "kind": 5,
+        "importPath": "extras",
+        "description": "extras",
+        "peekOfCode": "fake_users_db = {\n    \"testuser\": {\n        \"username\": \"testuser\",\n        \"hashed_password\": pwd_context.hash(\"testpassword\"),\n    }\n}\n# 사용자 모델\nclass User(BaseModel):\n    username: str\nclass UserInDB(User):",
+        "detail": "extras",
+        "documentation": {}
+    },
+    {
+        "label": "ConnectionManager",
+        "kind": 6,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "class ConnectionManager:\n    def __init__(self):\n        # 활성화된 연결들을 저장할 딕셔너리\n        self.active_connections: Dict[str, WebSocket] = {}\n    async def connect(self, client_id: str, websocket: WebSocket):\n        # 클라이언트 연결 수락\n        await websocket.accept()\n        # 클라이언트를 활성 연결 목록에 추가\n        self.active_connections[client_id] = websocket\n    def disconnect(self, client_id: str):",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "app = FastAPI()\n# 연결된 클라이언트들을 저장하는 클래스\nclass ConnectionManager:\n    def __init__(self):\n        # 활성화된 연결들을 저장할 딕셔너리\n        self.active_connections: Dict[str, WebSocket] = {}\n    async def connect(self, client_id: str, websocket: WebSocket):\n        # 클라이언트 연결 수락\n        await websocket.accept()\n        # 클라이언트를 활성 연결 목록에 추가",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "manager",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "manager = ConnectionManager()\n# 간단한 HTML 페이지를 제공하는 엔드포인트\n@app.get(\"/\")\nasync def get():\n    html = \"\"\"\n    <!DOCTYPE html>\n    <html>\n        <head>\n            <title>WebSocket 테스트</title>\n            <style>",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_HOST",
+        "kind": 5,
+        "importPath": "run_server",
+        "description": "run_server",
+        "peekOfCode": "DEFAULT_HOST = \"0.0.0.0\"\nDEFAULT_PORT = 8000\nDEFAULT_RELOAD = False\nif __name__ == \"__main__\":\n    # 환경 변수에서 설정 가져오기 (또는 기본값 사용)\n    host = os.getenv(\"HOST\", DEFAULT_HOST)\n    port = int(os.getenv(\"PORT\", DEFAULT_PORT))\n    reload = os.getenv(\"RELOAD\", \"False\").lower() in (\"true\", \"1\", \"t\")\n    print(f\"웹소켓 서버를 시작합니다...\")\n    print(f\"호스트: {host}\")",
+        "detail": "run_server",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_PORT",
+        "kind": 5,
+        "importPath": "run_server",
+        "description": "run_server",
+        "peekOfCode": "DEFAULT_PORT = 8000\nDEFAULT_RELOAD = False\nif __name__ == \"__main__\":\n    # 환경 변수에서 설정 가져오기 (또는 기본값 사용)\n    host = os.getenv(\"HOST\", DEFAULT_HOST)\n    port = int(os.getenv(\"PORT\", DEFAULT_PORT))\n    reload = os.getenv(\"RELOAD\", \"False\").lower() in (\"true\", \"1\", \"t\")\n    print(f\"웹소켓 서버를 시작합니다...\")\n    print(f\"호스트: {host}\")\n    print(f\"포트: {port}\")",
+        "detail": "run_server",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_RELOAD",
+        "kind": 5,
+        "importPath": "run_server",
+        "description": "run_server",
+        "peekOfCode": "DEFAULT_RELOAD = False\nif __name__ == \"__main__\":\n    # 환경 변수에서 설정 가져오기 (또는 기본값 사용)\n    host = os.getenv(\"HOST\", DEFAULT_HOST)\n    port = int(os.getenv(\"PORT\", DEFAULT_PORT))\n    reload = os.getenv(\"RELOAD\", \"False\").lower() in (\"true\", \"1\", \"t\")\n    print(f\"웹소켓 서버를 시작합니다...\")\n    print(f\"호스트: {host}\")\n    print(f\"포트: {port}\")\n    print(f\"자동 리로드: {'활성화' if reload else '비활성화'}\")",
+        "detail": "run_server",
+        "documentation": {}
+    }
+]
